@@ -74,7 +74,7 @@ li {
 
 div.contact {
     /* border settings of contact section */
-    border: 1px solid black;
+    border: 1.5px solid black;
     padding: 20px;
 }
 
@@ -101,8 +101,8 @@ textarea#message {
 button {
     /* settings for button in contact section */
     background: none;
-    border: 1px solid black;
-    font-size: 0.7rem;
+    border: 1.5px solid black;
+    font-size: 0.8rem;
     margin-top: 0.7rem;
     padding: 0.7rem;
 }
