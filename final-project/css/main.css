@@ -681,7 +681,7 @@ section div p,
         align-self: auto;
     }
 
-    .fifty-fifty {
+    .second {
         order: 0;
         flex: 0 1 50%;
         align-self: auto;
