@@ -718,6 +718,44 @@ section div button {
         padding-left: 10px;
     }
 
+        /* ---------------------------------------Team Section------------------------------------------- */
+
+        #team {
+            grid-template-areas:
+                "header header"
+                "john info1"
+                "info2 bob";
+            background-color: #FFE6AC;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            width: auto;
+            margin: 0 80px;
+    
+        }
+    
+        #team .ourteam {
+            grid-area: header;
+            background-color: white;
+        }
+    
+        #team .johnphoto {
+            grid-area: john;
+        }
+    
+        #team .johninfo {
+            grid-area: info1;
+        }
+    
+        #team .bobphoto {
+            grid-area: bob;
+        }
+    
+        #team .bobinfo {
+            grid-area: info2;
+        }
+    
+    }
     /* ----------------------google map------------------------------ */
 
     iframe {
@@ -739,41 +777,3 @@ section div button {
         width: 100%;
     }
 
-    /* ---------------------------------------Team Section------------------------------------------- */
-
-    #team {
-        grid-template-areas:
-            "header header"
-            "john info1"
-            "info2 bob";
-        background-color: #FFE6AC;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        width: auto;
-        margin: 0 80px;
-
-    }
-
-    #team .ourteam {
-        grid-area: header;
-        background-color: white;
-    }
-
-    #team .johnphoto {
-        grid-area: john;
-    }
-
-    #team .johninfo {
-        grid-area: info1;
-    }
-
-    #team .bobphoto {
-        grid-area: bob;
-    }
-
-    #team .bobinfo {
-        grid-area: info2;
-    }
-
-}
