@@ -128,8 +128,6 @@ table {
     border-spacing: 0;
 }
 
-/* --------------------------CSS STYLE-------------------------------- */
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -138,7 +136,7 @@ table {
 * {
     box-sizing: border-box;
 }
-/* ---------------------------Open Sans Font-------------------------- */
+/* -------------------------- Open Sans Font -------------------------- */
 body {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -151,7 +149,7 @@ div.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-/* ---------------------------------------Headings---------------------------------- */
+/* -------------------------- Headings -------------------------- */
 h1 {
     color: white;
     font-size: 40px;
@@ -188,15 +186,12 @@ span {
     vertical-align: middle;
 }
 
-
-/* add color and padding to nav section */
+/* ------------------------Navigation--------------------- */
 
 nav {
     background-color: #222;
     padding: 10px;
 }
-
-/*------ ----------------nav li centre-------------------------- */
 
 nav li {
     display: block;
@@ -204,20 +199,14 @@ nav li {
     padding: 12px 0;
 }
 
-/* --------------------------logo on left side corner------------------------------------- */
-
 nav li:first-child {
     text-align: left;
 }
-
-/* ------------------------remove underline annd change colour--------------------- */
 
 nav li a {
     color: #c78b06;
     text-decoration: none;
 }
-
-/* ------------------------color behind lists when hover-------------------------- */
 
 nav li:hover {
     background-color: #c78b06;
@@ -240,7 +229,7 @@ nav img {
     text-align: left;
 }
 
-/* ----------------------adjust size----------------------------- */
+/* ----------------------Sizing----------------------------- */
 
 .search {
     display: inline-block;
@@ -256,7 +245,7 @@ nav img {
 
 .magnify {
     display: inline-block;
-    /* padding: 6px 0px; */
+    
     width: 5%;
     text-align: center;
 }
@@ -323,17 +312,17 @@ section.vision button {
     font-size: 18px;
     text-align: center;
     padding: 4.5px;
-    /* padding: 20px 10px; */
+
 }
-/* hover style for all buttons */
+
 button:hover {
     border: 1px solid #c78b06;
 }
-/* adds margin bottom to all paragraphs */
+
 p {
     margin-bottom: 20px;
 }
-/* stlye about us section */
+
 #about {
     background-color: #FFE6AC;
 }
@@ -354,8 +343,6 @@ section div {
     padding-bottom: 15px;
 }
 
-
-
 section div p,
 section div h2,
 section div h3 {
@@ -374,7 +361,7 @@ section#team div h3 {
 }
 
 
-/* ---------------------------------------footer section-------------------------------------- */
+/* ---------------------------Footer section--------------------------- */
 
 footer {
     background-color: #222;
@@ -386,7 +373,6 @@ footer span {
     text-decoration: underline;
 }
 
-/* ------------------------------------style send button------------------------------ */
 button#send {
     color: #c78b06;
     padding: 6px 5px;
@@ -439,7 +425,7 @@ iframe {
     height: auto;
 }
 
-/* ----------------------connectwithus button---------------------------- */
+/* ---------------------------- ConnectWithUs Button---------------------------- */
 
 .welcome a {
     background-color: #c78b06;
@@ -504,8 +490,6 @@ section div p,
         padding:0;
     }
 
-/* ----------------------------MEDIA QUERY Heading 3 change --------------------------------- */
-
 @media only screen and (min-width:1145px) {
 
     h3 {
@@ -513,7 +497,7 @@ section div p,
     }
 }
 
-/* ----------------------------Desktop Layout MEDIA QUERY--------------------------------- */
+/* ---------------------------- Desktop Layout --------------------------------- */
 
 @media only screen and (min-width:780px) {
 
